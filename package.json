@@ -1,11 +1,17 @@
 {
   "private": false,
   "name": "small-icon-menu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tiny icon menu based on material icons and vue",
   "repository": "https://github.com/ivne/small-icon-menu",
   "bugs": "https://github.com/ivne/small-icon-menu/issues",
-  "keywords": ["small", "tiny", "menu", "icon", "vue"],
+  "keywords": [
+    "small",
+    "tiny",
+    "menu",
+    "icon",
+    "vue"
+  ],
   "scripts": {
     "serve": "vue serve src/small-icon-menu.vue",
     "build": "vue build",
@@ -13,7 +19,9 @@
   },
   "main": "dist/smalliconmenu.umd.js",
   "unpkg": "dist/smalliconmenu.umd.min.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "author": {
     "name": "I.Nemec",
     "email": "ivannemec@yahoo.com"
