@@ -9,10 +9,10 @@
   "scripts": {
     "serve": "vue serve src/small-icon-menu.vue",
     "build": "vue build",
-    "build:npm": "vue build --target lib --name small-icon-menu src/small-icon-menu.vue"
+    "build:npm": "vue build --target lib --name smalliconmenu src/small-icon-menu.vue"
   },
-  "main": "dist/small-icon-menu.umd.js",
-  "unpkg": "dist/small-icon-menu.umd.min.js",
+  "main": "dist/smalliconmenu.umd.js",
+  "unpkg": "dist/smalliconmenu.umd.min.js",
   "files": ["dist"],
   "author": {
     "name": "I.Nemec",

@@ -29,18 +29,19 @@ $ npm i small-icon-menu
 Import, register and place the component in your Vue app.
 Don't forget to include the material icons css "https://fonts.googleapis.com/icon?family=Material+Icons"
 
+
 ```html
 <template>
-  <SmallIconMenu />
+  <smalliconmenu :icons="['add', 'delete', 'edit]" @add="emits add event" @delete="emits delete event" @edit="emits edit event"/>
 </template>
 ```
 
 ```js
-import SmallIconMenu from 'small-icon-menu'
+import smalliconmenu from 'smalliconmenu'
 
 export default {
   components: {
-    SmallIconMenu
+    smalliconmenu
   },
 }
 ```

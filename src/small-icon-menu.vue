@@ -7,6 +7,7 @@
         <slot></slot>
     </div>
 </template>
+
 <style scoped>
 .small-icon-menu {
     position:relative;
@@ -44,7 +45,7 @@
 
 <script>
 export default {
-    name: "SmallIconMenu",
+    name: "small-icon-menu",
     computed: {
         iconStyle: function() {
             var margin = '0 6px 0 0';
