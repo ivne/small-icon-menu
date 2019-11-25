@@ -27,6 +27,7 @@ $ npm i small-icon-menu
 ## Usage
 
 Import, register and place the component in your Vue app.
+Don't forget to include the material icons css "https://fonts.googleapis.com/icon?family=Material+Icons"
 
 ```html
 <template>
