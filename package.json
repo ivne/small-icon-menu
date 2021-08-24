@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "small-icon-menu",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "tiny icon menu based on material icons and vue",
   "repository": "https://github.com/ivne/small-icon-menu",
   "bugs": "https://github.com/ivne/small-icon-menu/issues",
