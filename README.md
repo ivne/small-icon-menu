@@ -7,6 +7,7 @@ mainly created for side crud buttons menu in lists or tree views.
 | Prop     | Type    | Required | Default                     | Description                                      |
 | -------  | ------- | -------- | --------------------------- | ------------------------------------------------ |
 | icons    | array   | false    | ['add', 'delete', 'edit']   | Any icon from material icon library              |
+| labels   | object  | false    | {'add' : 'Add', 'delete' : 'Delete', 'edit' : 'Edit' }   | key icon name, value label |
 | iconSize | string  | false    | '16px'                      | Size of icons                                    |
 | height   | string  | false    | 'auto'                      | Height of menu                                   |
 | width    | string  | false    | 'auto'                      | Width of menu                                    |

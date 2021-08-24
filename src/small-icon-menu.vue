@@ -1,8 +1,8 @@
 <template>
     <div :class="{'small-icon-menu': true, 'column': column, 'border': border, 'absolute': absolute}" :style="menuStyle">
         <slot name="prepend"></slot>
-        <template v-if="icons.length > 0">
-            <i v-for="icon in icons" :key="icon" :class="['icon','material-icons', icon]" :style="iconStyle" @click.stop="$emit(icon)">{{ icon }}</i>
+        <template v-if="icons.length > 0" >
+            <i :title="labels[icon]" v-for="icon in icons" :key="icon" :class="['icon','material-icons', icon]" :style="iconStyle" @click.stop="$emit(icon)">{{ icon }}</i>
         </template>
         <slot></slot>
     </div>
@@ -102,6 +102,10 @@ export default {
         iconSize: {
             type: String,
             default: '16px'
+        },
+        labels: {
+            type: Object,
+            default: () => ({ 'add' : 'Add',  'edit': 'Edit'})
         }
     }
 };
